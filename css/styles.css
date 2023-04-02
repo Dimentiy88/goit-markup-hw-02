@@ -1,113 +1,76 @@
-:root{
---ptimary-text-color:#2E2F42;
---title-text-color:#434455;
-
-}
 .body {
     font-family: 'Roboto',sans-serif;
     color: #434455;
     background-color:#FFFFFF
 }
-.list{
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
+
+
+/* HEADER */
 .header {
-    box-sizing: border-box;
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
-}
-.nav {
 
 }
-.header-logo {
-    width: 44px;
-    height: 21px;
-    font-family: 'Raleway';
+.header-nav {
+
+}
+.header-logo-link {
+
+}
+.header-logo-text {
+
+}
+.header-list {
+
+    
+
+}
+.header-item-list {
+
+}
+.header-nav_link:hover,
+.header-nav_link:focus {
+color:#404BBF ;
+}
+
+.header-address {
+
+}
+.header-mail:hover,
+.header-mail:focus {
+color: #404BBF;
+}
+.header-tel {
+
+}
+/*HERO*/
+
+
+
+
+.contacts {
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    color: #4D5AE5;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+/* SLATE */
+
+    color: #434455;
 }
-.logo-text {
-    width: 71px;
-    height: 21px;
-    color: #2E2F42;
-}
-.nav_item {
+.contacts-list {
+
     
 }
-.nav_link {
-    color: #2E2F42;
-    width: 48px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.list {
+
 }
-.nav_link:active{
-    color: #404BBF 
+.contacts-item {
+
 }
-.mail {
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
+.contacts-link {
+ 
 }
-.mail:active{
-    color: #404BBF;
-}
-.tel {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.tel:active{
-    color: #404BBF;
+.link {
+
 }
