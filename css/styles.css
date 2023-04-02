@@ -1,7 +1,18 @@
+:root{
+--ptimary-text-color:#2E2F42;
+--title-text-color:#434455;
+
+}
 .body {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: #434455;
     background-color:#FFFFFF
+}
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 .header {
     box-sizing: border-box;
